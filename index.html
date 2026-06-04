@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca CEP com Demon Slayer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-overlay"></div>
+
+    <div class="wrapper">
+        <header class="header">
+            <img src="./imagem/logo.png" alt="Demon Slayer Logo" class="logo">
+            <h1 class="main-title">BUSCA CEP COM DEMON SLAYER</h1>
+            <div class="japanese-text">悪魔を退治する者</div>
+        </header>
+
+        <main class="main-content">
+            <form class="form-container">
+                <legend class="form-legend">Endereço</legend>
+
+                <div class="grid-form">
+                    <div class="input-group">
+                        <label for="cep">CEP</label>
+                        <input type="text" id="cep" placeholder="Digite seu CEP" maxlength="9">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" placeholder="Estado" readonly>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" placeholder="Cidade" readonly>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" placeholder="Bairro" readonly>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="logradouro">Logradouro</label>
+                        <input type="text" id="logradouro" placeholder="Rua" readonly>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="numero">Número</label>
+                        <input type="text" id="numero" placeholder="N">
+                    </div>
+
+                    <div class="input-group full-width">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" id="complemento" placeholder="Ex: Torre 2, Apartamento 55">
+                    </div>
+                </div>
+
+                <button type="button" class="btn-buscar" id="btn-buscar">Buscar</button>
+            </form>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
