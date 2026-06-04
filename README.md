@@ -61,7 +61,3 @@ Durante o desenvolvimento deste projeto foram praticados conceitos como:
 ## 🎯 Objetivo
 
 O objetivo deste projeto é demonstrar como utilizar APIs para automatizar o preenchimento de formulários, melhorando a experiência do usuário e reduzindo erros de digitação.
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Vitória Dietrich**.
